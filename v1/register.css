@@ -1,0 +1,35 @@
+.registerForm {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.registerButton {
+  margin: 0;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.login {
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 48%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.loginButton{
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 59%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
