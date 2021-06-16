@@ -23,7 +23,7 @@ $sth = $dbh->prepare('SELECT * FROM atsiliepimai;');
 $sth->execute();
 $rez = $sth->fetchAll();
 foreach ($rez AS $val){
-  echo "Id: ".$val['id'].", Vardas: ".$val['Vardas'].", Pavarde: ".$val['Pavarde'].", El. Paštas: ".$val['El_pastas'].", Nuomonė: ".$val['Atsiliepimas']."<br><br>";
+  echo "Id: ".$val['id'].", Vardas: ".$val['Vardas'].", Pavardė: ".$val['Pavarde'].", El. Paštas: ".$val['El_pastas'].", Nuomonė: ".$val['Atsiliepimas']."<br><br>";
 }
 
 ?>
